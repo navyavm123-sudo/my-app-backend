@@ -4,7 +4,7 @@ const cors = require("cors");
 const jwt = require("jsonwebtoken");
 
 // Import Models
-const User = require("./models/User");
+const User = require("./models/user");
 const Product = require("./models/Product");
 const Review = require("./models/Review");
 
