@@ -5,8 +5,8 @@ const jwt = require("jsonwebtoken");
 
 // Import Models
 const User = require("./models/user");
-const Product = require("./models/Product");
-const Review = require("./models/Review");
+const Product = require("./models/product");
+const Review = require("./models/review");
 
 const app = express();
 const JWT_SECRET = "watchshop_secret_key_2026_navya";   // You can change this
